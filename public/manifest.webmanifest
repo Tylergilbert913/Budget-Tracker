@@ -1,6 +1,6 @@
 {
     "short_name": "Icons For Budget Tracker",
-    "name": "Web App Manifest Demo",
+    "name": "Budget Tracker",
     "icons": [
       {
         "src": "/public/icons/icons-192.png",

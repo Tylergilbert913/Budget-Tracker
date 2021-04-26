@@ -8,7 +8,7 @@ const FILES_TO_CACHE = [
     `/icons/icon-512x512.png`
   ];
   
-  const STATIC_CACHE = "static-cache-v1";
+  const STATIC_CACHE = "static-cache-v2";
   const RUNTIME_CACHE = "runtime-cache";
   
   self.addEventListener("install", event => {
@@ -27,7 +27,6 @@ const FILES_TO_CACHE = [
       caches
         .keys()
         .then(cacheNames => {
-          // return array of cache names that are old to delete
           return cacheNames.filter(
             cacheName => !currentCaches.includes(cacheName)
           );
