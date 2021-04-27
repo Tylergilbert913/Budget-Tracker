@@ -9,7 +9,7 @@ const FILES_TO_CACHE = [
   ];
   
   const STATIC_CACHE = "static-cache-v2";
-  const RUNTIME_CACHE = "runtime-cache";
+  const RUNTIME_CACHE = "runtime-cache-v1";
   
   self.addEventListener("install", event => {
     event.waitUntil(
