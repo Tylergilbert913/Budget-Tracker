@@ -54,13 +54,15 @@ const FILES_TO_CACHE = [
     }
   
     // handle runtime GET requests for data from /api routes
-    if (event.request.url.includes("/api/images")) {
+    if (event.request.url.includes("/api/transactions")) {
       // make network request and fallback to cache if network request fails (offline)
       event.respondWith(
         caches.open(RUNTIME_CACHE).then(cache => {
           return fetch(event.request)
             .then(response => {
+              if (response.status === 200) {
               cache.put(event.request, response.clone());
+              }
               return response;
             })
             .catch(() => caches.match(event.request));
