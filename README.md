@@ -12,7 +12,7 @@ This application created in order to keep up with the users weekly budget.
 
 ## Deployed Site
 
-
+https://budget-racker-tracker.herokuapp.com/
     
 ## Table of Contents
     
@@ -36,7 +36,7 @@ Simply add the name of the users transaction, the amount for that transaction an
     
 ## Contributors 
     
-Arash Saaedi 
+Arash Saaedi, Eiman Zarrinhonar 
     
 ## Testing Instructions 
     
