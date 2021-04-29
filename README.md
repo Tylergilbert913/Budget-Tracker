@@ -32,7 +32,7 @@ NPM START
     
 ## Usage Information 
     
-Simply add the name of the users transaction, the amount for that transaction and thne click the ADD FUNDS button. The user can then repeat this process and click the SUBTRACT FUNDS button to balance out the budget tracker for the week.
+Simply add the name of the users transaction, the amount for that transaction and then click the ADD FUNDS button. The user can then repeat this process and click the SUBTRACT FUNDS button to balance out the budget tracker for the week.
     
 ## Contributors 
     
